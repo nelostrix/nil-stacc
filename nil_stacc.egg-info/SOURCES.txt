@@ -1,0 +1,7 @@
+pyproject.toml
+nil_stacc/__init__.py
+nil_stacc/bridge.py
+nil_stacc.egg-info/PKG-INFO
+nil_stacc.egg-info/SOURCES.txt
+nil_stacc.egg-info/dependency_links.txt
+nil_stacc.egg-info/top_level.txt

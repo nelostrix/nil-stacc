@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nil-stacc"
+version = "0.1.0"
+description = "NIL-STACC — self-evolving AI agents for stacc robots"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.9"
+authors = [
+    {name = "Nelo Robotics Pvt Ltd"},
+]
+keywords = ["robotics", "ai-agents", "self-improving", "nil", "stacc"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://nelo-robotics.com"
+
+[tool.setuptools.packages.find]
+include = ["nil_stacc*"]

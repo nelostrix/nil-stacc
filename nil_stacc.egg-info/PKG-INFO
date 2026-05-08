@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: nil-stacc
+Version: 0.1.0
+Summary: NIL-STACC — self-evolving AI agents for stacc robots
+Author: Nelo Robotics Pvt Ltd
+License-Expression: Apache-2.0
+Project-URL: Homepage, https://nelo-robotics.com
+Keywords: robotics,ai-agents,self-improving,nil,stacc
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown

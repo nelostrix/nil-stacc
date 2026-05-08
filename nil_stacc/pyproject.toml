@@ -1,0 +1,20 @@
+# nil-stacc
+
+Self-evolving AI agents for stacc robots.
+
+Bridge between NIL (self-improving agent SDK) and stacc (universal robotics platform).
+
+## Usage
+
+```python
+from nil_stacc import RobotAgent
+from stacc.core.urdf_parser import load_urdf
+
+robot = load_urdf("my_robot.urdf")
+agent = RobotAgent(robot)
+agent.run("Pick up the red block from shelf A")
+```
+
+## Built by
+
+Nelo Robotics Pvt Ltd
